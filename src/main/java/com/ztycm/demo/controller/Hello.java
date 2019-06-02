@@ -20,7 +20,7 @@ public class Hello {
 	@GetMapping(value = "/test")
 	public Map<String, String> test(@RequestParam("id") String id){
 		Map<String, String> result = new HashMap<>();
-		result.put("name", "周彤");
+		result.put("name", "zt");
 		result.put("id", id);
 		return result;
 	} 
