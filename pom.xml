@@ -41,12 +41,14 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		
 		<!-- activemq -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
 		
+		<!-- util -->
 		<dependency>
 			<groupId>com.ztycm</groupId>
 			<artifactId>ycm.util.demo</artifactId>
